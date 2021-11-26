@@ -1,0 +1,63 @@
+#include<iostream>
+using namespace std;
+  int main()
+{
+	setlocale(LC_ALL, "ru");
+	int a, b, S, P;
+	cout << "Введите  стороны прямоугольника:" << endl;
+	cin >> a >> b;
+	S = a * b;
+	P = (a + b) * 2;
+	cout << "Площадь равна " << S << endl << "Периметр равен " << P << endl; 
+	cout << "\n\t" << endl;
+	cout << "\n\t" << endl;
+	cout << "\n\t" << endl;
+
+
+	cout << "Задание 2: " << endl;
+
+		double d, L;
+		const double PI = 3.14;
+		cout << "Введите диаметр окружности: " << endl;
+		cin >> d;
+		L = d * PI;
+		cout << "Длина оркужности равна: " << L;
+
+		cout << "\n\t" << endl;
+		cout << "\n\t" << endl;
+
+		cout << "Задание 3:" << endl;
+			int x, z , c;
+			cout << "Введите два числа:" << endl;
+			cin >> x >> z;
+			c = x + z;
+			cout << "Среднее арфиметическое значение равно " << (double)c / 2 << endl;
+	 
+			cout << "\n\t" << endl;
+			cout << "\n\t" << endl;
+
+			cout << "задание 4:" << endl;
+			int a1, a2, a12 , a13 ;
+			cout << "Введите две переменные:" << endl;
+			cin >> a1 >> a2;
+			a12 = a * a;
+			a13 = b * b;
+			cout << a1 + a2 << endl;
+			cout << a1 - a2 << endl;
+			cout << a1 * a2 << endl;
+			cout << (double)a1 / (double)a2 << endl;
+		 
+			cout << "\n\t" << endl;
+			cout << "\n\t" << endl; 
+
+			cout << "задание 5:" << endl;
+			int b1, b2, b12, b11;
+			cout << "Введите две переменные:" << endl;
+			cin >> b1 >> b2;
+			b11 = abs(a);
+			b12 = abs(b);
+			cout << b1 + b2 << endl;
+			cout << b1 - b2 << endl;
+			cout << b1 * b2 << endl;
+			cout << (double)b1 / (double) b2 << endl;
+			}
